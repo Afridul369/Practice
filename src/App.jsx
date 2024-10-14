@@ -17,12 +17,17 @@ import Video from "./assets/video.png";
 import Cardimg1 from './assets/cardimg1.png'
 import Cardimg2 from './assets/cardimg2.png'
 import Cardimg3 from './assets/cardimg3.png'
+import Circle1 from './assets/circle1.png'
+import Circle2 from './assets/circle2.png'
+import Circle3 from './assets/circle3.png'
 import { FaChevronRight } from "react-icons/fa6";
 import { FaRegHeart } from "react-icons/fa6";
 import { IoStarSharp } from "react-icons/io5";
 import { BsCart } from "react-icons/bs";
 import { MdRemoveRedEye } from "react-icons/md";
 import { BsDownload } from "react-icons/bs";
+import { GoStarFill } from "react-icons/go";
+import { FaRegStar } from "react-icons/fa";
 import Badge from "./Components/Badge";
 
 function App() {
@@ -362,8 +367,63 @@ function App() {
       {/* advice part start */}
       <div className="bg-bgcolor py-40">
         <Container>
-          <Flex>
-            jhikj
+          <Text text={'Practice Advice'} className={'text-btncolor text-sm font-moon font-bold mb-5'}/>
+          <Text text={'Approdable Packages'} className={'text-white text-[40px] font-moon font-bold mb-3'}/>
+          <Text text={'Problems trying to resolve the conflict between  '} className={'text-white text-sm font-moon '}/>
+          <Text text={'the two major realms of Classical physics: Newtonian mechanics '} className={'text-white text-sm font-moon mb-16'}/>
+          <Flex className={'justify-between'}>
+            <div className="w-[32.5%] pt-12 pb-8 bg-white px-[120px]">
+            <Flex className={'justify-center gap-x-2 text-star2 mb-4'}>
+            <GoStarFill className="text-2xl"/>
+            <GoStarFill className="text-2xl"/>
+            <GoStarFill className="text-2xl"/>
+            <GoStarFill className="text-2xl"/>
+            <FaRegStar className="text-2xl"/>
+            </Flex>
+            <Text text={'Slate helps you see how many more days you need to work to reach your financial goal for the month and year.'} className={'text-center text-sm font-moon text-cardtxt mb-5'}/>
+            <Flex className={'gap-x-3'}>
+             <Image imgSrc={Circle1}/>
+             <div className="py-2">
+              <Text text={'Regina Miles'} className={'text-sm font-bold font-moon text-btncolor'}/>
+              <Text text={'Designer'} className={'text-xs font-moon text-cardcolor'}/>
+             </div>
+            </Flex>
+            </div>
+            <div className="w-[32.5%] pt-12 pb-8 bg-white px-[120px]">
+            <Flex className={'justify-center gap-x-2 text-star2 mb-4'}>
+            <GoStarFill className="text-2xl"/>
+            <GoStarFill className="text-2xl"/>
+            <GoStarFill className="text-2xl"/>
+            <GoStarFill className="text-2xl"/>
+            <FaRegStar className="text-2xl"/>
+            </Flex>
+            <Text text={'Slate helps you see how many more days you need to work to reach your financial goal for the month and year.'} className={'text-center text-sm font-moon text-cardtxt mb-5'}/>
+            <Flex className={'gap-x-3'}>
+             <Image imgSrc={Circle2}/>
+             <div className="py-2">
+              <Text text={'Regina Miles'} className={'text-sm font-bold font-moon text-btncolor'}/>
+              <Text text={'Designer'} className={'text-xs font-moon text-cardcolor'}/>
+             </div>
+            </Flex>
+            </div>
+            <div className="w-[32.5%] pt-12 pb-8 bg-white px-[120px]">
+            <Flex className={'justify-center gap-x-2 text-star2 mb-4'}>
+            <GoStarFill className="text-2xl"/>
+            <GoStarFill className="text-2xl"/>
+            <GoStarFill className="text-2xl"/>
+            <GoStarFill className="text-2xl"/>
+            <FaRegStar className="text-2xl"/>
+            </Flex>
+            <Text text={'Slate helps you see how many more days you need to work to reach your financial goal for the month and year.'} className={'text-center text-sm font-moon text-cardtxt mb-5'}/>
+            <Flex className={'gap-x-3'}>
+             <Image imgSrc={Circle3}/>
+             <div className="py-2">
+              <Text text={'Regina Miles'} className={'text-sm font-bold font-moon text-btncolor'}/>
+              <Text text={'Designer'} className={'text-xs font-moon text-cardcolor'}/>
+             </div>
+            </Flex>
+            </div>
+            
           </Flex>
         </Container>
       </div>

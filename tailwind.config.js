@@ -18,6 +18,7 @@ export default {
         star: '#ffce31',
         mud: '#BDBDBD',
         orange: '#FF7B52',
+        star2: '#F3CD03',
       },
       fontFamily: {
         moon: 'Montserrat',
