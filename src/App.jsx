@@ -428,6 +428,108 @@ function App() {
         </Container>
       </div>
       {/* advice part end */}
+
+      {/* FAQ Part Start */}
+      <div className="pt-40 pb-32 bg-bgcolor">
+        <div className="text-center mb-20">
+          <Text text={'FAQ'} className={'text-[40px] font-bold font-moon text-white mb-4'}/>
+          <Text text={'Problems trying to resolve the conflict between'} className={'text-sm  font-moon text-white mb-1'}/>
+          <Text text={'the two major realms of Classical physics: Newtonian mechanics'} className={'text-sm  font-moon text-white mb-4'}/>
+        </div>
+        <Container >
+       <Flex className={'justify-between mb-8'}>
+       <div className="w-[32%] bg-white rounded-lg py-7 px-6">
+       <Flex className={'gap-x-5'}>
+       <FaChevronRight className="text-2xl text-btncolor "/>
+       <div className="">
+       <Text text={'the quick fox jumps over the lazy dog'} className={'text-cardcolor text-base font-bold font-moon pr-4 mb-2'}/>
+       <Text text={'Things on a very small scale behave like nothing '} className={'text-cardtxt text-sm font-bold font-moon pr-5'}/>
+       </div>  
+       </Flex>      
+         </div>
+       <div className="w-[32%] bg-white rounded-lg py-7 px-6">
+       <Flex className={'gap-x-5'}>
+       <FaChevronRight className="text-2xl text-btncolor "/>
+       <div className="">
+       <Text text={'the quick fox jumps over the lazy dog'} className={'text-cardcolor text-base font-bold font-moon pr-4 mb-2'}/>
+       <Text text={'Things on a very small scale behave like nothing '} className={'text-cardtxt text-sm font-bold font-moon pr-5'}/>
+       </div>  
+       </Flex>      
+         </div>
+       <div className="w-[32%] bg-white rounded-lg py-7 px-6">
+       <Flex className={'gap-x-5'}>
+       <FaChevronRight className="text-2xl text-btncolor "/>
+       <div className="">
+       <Text text={'the quick fox jumps over the lazy dog'} className={'text-cardcolor text-base font-bold font-moon pr-4 mb-2'}/>
+       <Text text={'Things on a very small scale behave like nothing '} className={'text-cardtxt text-sm font-bold font-moon pr-5'}/>
+       </div>  
+       </Flex>      
+         </div>
+       
+       </Flex>
+       <Flex className={'justify-between mb-8'}>
+       <div className="w-[32%] bg-white rounded-lg py-7 px-6">
+       <Flex className={'gap-x-5'}>
+       <FaChevronRight className="text-2xl text-btncolor "/>
+       <div className="">
+       <Text text={'the quick fox jumps over the lazy dog'} className={'text-cardcolor text-base font-bold font-moon pr-4 mb-2'}/>
+       <Text text={'Things on a very small scale behave like nothing '} className={'text-cardtxt text-sm font-bold font-moon pr-5'}/>
+       </div>  
+       </Flex>      
+         </div>
+       <div className="w-[32%] bg-white rounded-lg py-7 px-6">
+       <Flex className={'gap-x-5'}>
+       <FaChevronRight className="text-2xl text-btncolor "/>
+       <div className="">
+       <Text text={'the quick fox jumps over the lazy dog'} className={'text-cardcolor text-base font-bold font-moon pr-4 mb-2'}/>
+       <Text text={'Things on a very small scale behave like nothing '} className={'text-cardtxt text-sm font-bold font-moon pr-5'}/>
+       </div>  
+       </Flex>      
+         </div>
+       <div className="w-[32%] bg-white rounded-lg py-7 px-6">
+       <Flex className={'gap-x-5'}>
+       <FaChevronRight className="text-2xl text-btncolor "/>
+       <div className="">
+       <Text text={'the quick fox jumps over the lazy dog'} className={'text-cardcolor text-base font-bold font-moon pr-4 mb-2'}/>
+       <Text text={'Things on a very small scale behave like nothing '} className={'text-cardtxt text-sm font-bold font-moon pr-5'}/>
+       </div>  
+       </Flex>      
+         </div>
+       
+       </Flex>
+       <Flex className={'justify-between'}>
+       <div className="w-[32%] bg-white rounded-lg py-7 px-6">
+       <Flex className={'gap-x-5'}>
+       <FaChevronRight className="text-2xl text-btncolor "/>
+       <div className="">
+       <Text text={'the quick fox jumps over the lazy dog'} className={'text-cardcolor text-base font-bold font-moon pr-4 mb-2'}/>
+       <Text text={'Things on a very small scale behave like nothing '} className={'text-cardtxt text-sm font-bold font-moon pr-5'}/>
+       </div>  
+       </Flex>      
+         </div>
+       <div className="w-[32%] bg-white rounded-lg py-7 px-6">
+       <Flex className={'gap-x-5'}>
+       <FaChevronRight className="text-2xl text-btncolor "/>
+       <div className="">
+       <Text text={'the quick fox jumps over the lazy dog'} className={'text-cardcolor text-base font-bold font-moon pr-4 mb-2'}/>
+       <Text text={'Things on a very small scale behave like nothing '} className={'text-cardtxt text-sm font-bold font-moon pr-5'}/>
+       </div>  
+       </Flex>      
+         </div>
+       <div className="w-[32%] bg-white rounded-lg py-7 px-6">
+       <Flex className={'gap-x-5'}>
+       <FaChevronRight className="text-2xl text-btncolor "/>
+       <div className="">
+       <Text text={'the quick fox jumps over the lazy dog'} className={'text-cardcolor text-base font-bold font-moon pr-4 mb-2'}/>
+       <Text text={'Things on a very small scale behave like nothing '} className={'text-cardtxt text-sm font-bold font-moon pr-5'}/>
+       </div>  
+       </Flex>      
+         </div>
+       
+       </Flex>
+        </Container>
+      </div>
+      {/* FAQ Part End */}
     </>
   );
 }
